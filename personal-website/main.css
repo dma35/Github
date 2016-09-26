@@ -1,0 +1,184 @@
+/* ********************************
+                GENERAL
+    ******************************* */
+
+#wrapper{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%; 
+}
+
+/*LOGO TEXT*/
+#logo{
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    margin: 0 0 1em 0;
+}
+
+/* HEADING */
+header{
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 5px 0 0 0;
+    background: #396a2b;
+    border-color: #899a6b;
+}
+
+h1, h2{
+    color: #fff;
+}
+
+h1{
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 1.0em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/**LINKS**/
+a {
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    color: #6ab47b;
+}
+
+/* NAVIGATION */
+
+nav{
+    background: #599a6b;
+    text-align: center;
+    padding: 5px 0 2px 0;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    font-weight: 700;
+    padding: 10px 10px
+}
+nav a, nav a:visited{
+    color: #fff;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a.selected{
+    color: #000;
+}
+
+/* BODY */
+body{
+    background: #fff;
+}
+
+
+/* ********************************
+                PAGE ABOUT
+    ******************************* */
+
+.profile-pic{
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+/**GALLERY**/
+
+section li{
+    list-style: none;
+}
+
+#gallery{
+    padding: 0;
+    margin: 0;
+    background-color: #5a6faa;
+    color: #bdc3c7;
+}
+
+#gallery li{
+    float: left;
+    width: 45%;
+    margin: 2.5%
+}
+
+#gallery ul li a p{
+  color: #5c575f;
+  margin: 0;
+  font-size: 0.75em;
+  padding: 5%;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* ********************************
+                PAGE CONTACT
+    ******************************* */
+
+.contact-details{
+    list-style: none;
+    font-size: 0.95em;
+}
+
+.contact-details a{
+    text-align: left;
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    background-size: 20px 20px;
+    margin: 0 0 2px;
+    padding: 0 0 0 30px;
+}
+
+.contact-details li.phone a{
+    background-image: url('img/phone.png');
+}
+
+.contact-details li.email a{
+    background-image: url(img/mail.png);
+}
+
+.contact-details li.twitter a{
+    background-image: url(img/twitter.png);
+}
+
+/* FOOTER */
+footer{
+     padding-top: 10px;
+    font-size: 0.75em;
+    color: #ccc;
+    text-align: center;
+    clear: both;
+}
+
+.icon-select{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
